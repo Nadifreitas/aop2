@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre Páginas: blog sobre literatura, gêneros e recomendações de leitura.">
+  <title>Contato | Entre Páginas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="topbar"><a class="brand" href="index.html"><small>Blog literário</small><strong>Entre Páginas</strong></a></div>
+    <nav aria-label="Navegação principal"><div class="nav-inner"><a href="index.html">Home</a>
+<a href="romance.html">Romance</a>
+<a href="fantasia.html">Fantasia</a>
+<a href="classicos.html">Clássicos</a>
+<a href="contatos.html" aria-current="page">Contatos</a></div></nav>
+  </header>
+  
+<main>
+  <div class="section-heading"><span class="eyebrow">Vamos conversar?</span><h2>Entre em contato</h2><p>Envie sugestões de livros, comentários ou ideias para os próximos conteúdos.</p></div>
+  <div class="contact-box">
+    <form onsubmit="event.preventDefault(); alert('Mensagem demonstrativa! Para receber mensagens de verdade, é necessário conectar este formulário a um serviço.');">
+      <label for="nome">Nome</label><input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+      <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required>
+      <label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+      <button type="submit">Enviar mensagem</button>
+    </form>
+  </div>
+</main>
+  <footer><p>Entre Páginas · Blog sobre livros e literatura</p><p>Projeto acadêmico desenvolvido em HTML5 e CSS3.</p></footer>
+</body>
+</html>
